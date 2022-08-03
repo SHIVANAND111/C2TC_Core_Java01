@@ -19,7 +19,7 @@ public class ExceptionHandlingThrow {
 		}
 		catch(ArithmeticException ae)
 		{
-			ae.printStackTrace();
+		System.out.println(ae);
 		}
 		finally
 		{
